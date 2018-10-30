@@ -13,13 +13,14 @@
     width:950px;
     margin-left: auto;
     margin-right: auto;
-
-}
+    align-items: center;
+   }
 
 .menu__item {
     font-family: Bazar;
     font-size: 32px;
     text-align: center;
+    vertical-align: middle;
 
 }
 
@@ -39,6 +40,14 @@
 }
 .menu_item--logo{
     grid-column: 3;
+    background-image: url("/HTML-CSS-Learn/img/logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .menu_item--3{
     grid-column: 4;
