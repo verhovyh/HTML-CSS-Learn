@@ -16,6 +16,11 @@
     3px 3px 0 #3a3a3a
 }
 
+.about-me-divider{
+    font-family: 'PT Sans';
+    font-weight: bold;
+}
+
 .about-me-text {
     font-family: Bazar;
     text-align: center;
