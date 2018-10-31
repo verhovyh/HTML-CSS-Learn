@@ -70,5 +70,25 @@
     color: #e1dccc;
     vertical-align: center;
     font-size: 100px;
+}
+
+.about-me-areas__area__header{
+    padding-top: 10px;
+    font-family: 'Bazar';
+    font-size: 2em;
+    color: #383a3c;
+}
+
+.about-me-areas__area__header2{
+    color: #383a3c;
+    font-size: 1.25em;
+    font-family: 'Roboto Slab';
+}
+.about-me-areas__area__text{
+    padding-top: 15px;
+    font-family: 'Roboto Slab';
+    color: #383a3c;
+    font-size: 1em;
+    line-height: 1.6;
 
 }
