@@ -1,28 +1,77 @@
 .about-me-container {
-    display: flex;
+
     width: 100%;
     background: url("/HTML-CSS-Learn/img/about_me_background.png");
-
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
 }
 
 .about-me-header {
+    text-align: center;
     font-family: Bazar;
     font-size: 70px;
     color: #3a3a3a;
-
     text-shadow: 1px 1px 0 #fcfaf7,
     3px 3px 0 #3a3a3a
 }
 
-.about-me-divider{
+.about-me-divider {
+
+    display: inline-block;
     font-family: 'PT Sans';
     font-weight: bold;
+    display: block;
+    overflow: hidden;
+    text-align: center;
 }
 
 .about-me-text {
     font-family: Bazar;
     text-align: center;
+    padding-top: 10px;
+}
+
+.about-me-areas {
+
     padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 950px;
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.about-me-areas__area {
+    min-width: 237px;
+    text-align: center;
+    align-content: center;
+}
+
+.about-me-areas__area__icon {
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 130px;
+    background: #d45244;
+    border: 3px solid #5b5b5a;
+
+}
+
+.about-me-areas__area__icon {
+    color: #e1dccc;
+    vertical-align: center;
+    font-size: 100px;
+
 }

@@ -1,7 +1,6 @@
 .site-header-container {
     width: 100%;
     background: url("/HTML-CSS-Learn/img/header_background.png");
-    height: 130px;
     justify-items: center;
 }
 
@@ -18,6 +17,7 @@
 
 .menu__item {
     font-family: Bazar;
+    color: #f9ebd9;
     font-size: 32px;
     text-align: center;
     vertical-align: middle;

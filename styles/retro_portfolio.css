@@ -18,7 +18,9 @@
     padding-top: 10px;
 }
 
-.retro-banner-title {
+.retro-banner_title {
+    width:30%; /* you can use % or px */
+    height: auto;
 
 }
 
