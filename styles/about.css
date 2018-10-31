@@ -1,16 +1,12 @@
-.about-me-container {
-    padding-top: 30px;
-    width: 100%;
+.about-me-section {
     background: url("/HTML-CSS-Learn/img/about_me_background.png");
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
 }
 
 .about-me-header {
 
     text-align: center;
     font-family: Bazar;
-    font-size: 70px;
+    font-size: 6vw;
     color: #3a3a3a;
     text-shadow: 1px 1px 0 #fcfaf7,
     3px 3px 0 #3a3a3a
@@ -20,28 +16,31 @@
 
     display: inline-block;
     font-family: 'PT Sans';
+    color: #3a3a3a;
     font-weight: bold;
     display: block;
     overflow: hidden;
     text-align: center;
+    font-size: 2vw;
 }
 
 .about-me-text {
     font-family: Bazar;
+    font-size: 3vw;
+    color: #38353e;
+    max-font-size: 10px;
     text-align: center;
     padding-top: 10px;
 }
 
 .about-me-areas {
 
-    padding-top: 30px;
+    padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
 
-
     display: flex;
-
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -53,6 +52,7 @@
     max-width: 237px;
     text-align: center;
     align-content: center;
+    padding: 20px 20px;
 }
 
 .about-me-areas__area__icon {
@@ -73,19 +73,20 @@
     font-size: 100px;
 }
 
-.about-me-areas__area__header{
+.about-me-areas__area__header {
     padding-top: 10px;
     font-family: 'Bazar';
     font-size: 2em;
     color: #383a3c;
 }
 
-.about-me-areas__area__header2{
+.about-me-areas__area__header2 {
     color: #383a3c;
     font-size: 1.25em;
     font-family: 'Roboto Slab';
 }
-.about-me-areas__area__text{
+
+.about-me-areas__area__text {
     padding-top: 15px;
     font-family: 'Roboto Slab';
     color: #383a3c;

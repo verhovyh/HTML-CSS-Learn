@@ -1,44 +1,31 @@
-.retro-portfolio-logos-container {
-    width: 100%;
+.retro-portfolio-logos-section {
+
     background: url("/HTML-CSS-Learn/img/header_background.png");
     /* height: 230px; */
     justify-items: center;
     padding-bottom: 30px;
-
+    border-bottom: 2px dashed #aaa;
 }
 
 .retro-banner {
-    display: flex;
-    max-width: 950px;
-    margin-left: auto;
-    margin-right: auto;
-    /* height: 130px; */
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
 
-    padding-top: 10px;
-}
+    max-width: 300px;
+    margin: auto;
+    max-height: 130px;
+    align-content: center;
 
-.retro-banner_title {
-    width:30%; /* you can use % or px */
-    height: auto;
 
 }
 
 .retro-ribbon {
-    /* display: flex; */
-    width: 100%;
-    height: 124px;
+
+    height: 60px;
     text-align: center;
-    line-height: 104px;
+    line-height: 80px;
     color: #545454;
 
     font-size: 31px;
 
     background: url("/HTML-CSS-Learn/img/ribbon.png") center no-repeat;
     font-family: Bazar;
-
-    /* justify-content: center; /* align horizontal */
-    /*align-items: center; /* align vertical */
-
 }
