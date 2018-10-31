@@ -1,0 +1,41 @@
+.contact-me-section{
+    background: #4e5259;
+}
+
+.contact-me-header{
+
+    text-align: center;
+    font-family: Bazar;
+    font-size: 6vw;
+    color: #f6edd8;
+    text-shadow: 1px 1px 0 #484a4d,
+    3px 3px 0 #d4cebf
+}
+
+
+.contact-form-container{
+    max-width: 650px;
+    margin: auto;
+    padding: 30px 20px;
+
+}
+.contact-form{
+
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+
+.contact-form__item{
+
+    padding: 5px 15px;
+    width: 100%;
+    transition: background-color .25s ease;
+}
+.contact-form__button{
+    padding: 5px;
+}
