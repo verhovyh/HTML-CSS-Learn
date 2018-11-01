@@ -14,7 +14,9 @@
     padding: 30px 20px;
 
     grid-gap: 20px;
-    grid-template-areas: 'pic title responses' 'pic preview preview';
+    grid-template-areas:
+            'pic title responses'
+            'pic preview preview';
     grid-template-columns: 200px 1fr 170px;
     grid-template-rows: 30px 1fr;
 }

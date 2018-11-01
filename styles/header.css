@@ -1,10 +1,5 @@
 .site-header {
-    padding: 10px 0;
-
-    border-bottom: 2px dashed #aaa;
     background: url('../img/header_background.png');
-
-    justify-items: center;
 }
 
 .menu {
@@ -49,14 +44,14 @@
     grid-column: 3;
 }
 
-.menu_item__logo:hover {
+.menu-item__logo:hover {
     transform: scale(1.1);
 }
 
-.menu_item--3 {
+.menu-item__3 {
     grid-column: 4;
 }
 
-.menu_item--4 {
+.menu-item__4 {
     grid-column: 5;
 }

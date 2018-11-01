@@ -2,20 +2,6 @@
     background: url('../img/about_me_background.png');
 }
 
-.about-me-divider {
-    font-family: 'PT Sans';
-    font-size: 2vw;
-    font-weight: bold;
-
-    display: inline-block;
-    display: block;
-    overflow: hidden;
-
-    text-align: center;
-
-    color: #3a3a3a;
-}
-
 .about-me-text {
     font-family: Bazar;
     font-size: 3vw;

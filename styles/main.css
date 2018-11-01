@@ -55,3 +55,22 @@
     height: auto;
     max-height: 100%;
 }
+
+.section-header__divider {
+    font-family: 'PT Sans';
+    font-size: 2vw;
+    font-weight: bold;
+margin: auto;
+
+    text-align: center;
+    color: #3a3a3a;
+
+
+
+}
+
+
+
+.section-header__divider_light {
+    color: #f6edd8;
+}
