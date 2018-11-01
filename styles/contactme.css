@@ -2,7 +2,7 @@
     background: #4e5259;
 }
 
-.contact-form-container {
+.contacts-container {
     max-width: 650px;
     margin: auto;
     padding: 30px 20px;
@@ -26,4 +26,30 @@
 
 .contact-form__button {
     padding: 5px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+   
+    margin: auto;
+    padding: 20px 0;
+}
+
+.social-icons__icon {
+    font-size: 50px;
+
+    display: inline-flex;
+
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+
+    color: #383a3c;
+    border: 2px solid #383a3c;
+    border-radius: 50%;
+    background: #f5eee3;
+
+    justify-content: center;
+    align-items: center;
 }

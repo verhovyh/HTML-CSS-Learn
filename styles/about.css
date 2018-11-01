@@ -2,19 +2,6 @@
     background: url('../img/about_me_background.png');
 }
 
-.about-me-text {
-    font-family: Bazar;
-    font-size: 3vw;
-
-    padding-top: 10px;
-
-    text-align: center;
-
-    color: #38353e;
-
-    max-font-size: 10px;
-}
-
 .about-me-areas {
     display: flex;
     flex-direction: row;
@@ -48,8 +35,6 @@
     height: 130px;
     margin-right: auto;
     margin-left: auto;
-
-    vertical-align: center;
 
     color: #e1dccc;
     border: 3px solid #5b5b5a;

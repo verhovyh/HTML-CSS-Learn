@@ -60,17 +60,31 @@
     font-family: 'PT Sans';
     font-size: 2vw;
     font-weight: bold;
-margin: auto;
+
+    margin: auto;
 
     text-align: center;
+
     color: #3a3a3a;
-
-
-
 }
 
-
-
 .section-header__divider_light {
+    color: #f6edd8;
+}
+
+.section-header__subheader {
+    font-family: Bazar;
+    font-size: 15px;
+
+    padding-top: 5px;
+
+    text-align: center;
+
+    color: #38353e;
+
+    max-font-size: 10px;
+}
+
+.section-header__subheader_light {
     color: #f6edd8;
 }
