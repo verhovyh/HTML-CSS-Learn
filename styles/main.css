@@ -3,28 +3,47 @@
     src: url(fonts/Bazar.ttf) format("truetype");
 }
 
-.container{
-    max-width:1170px;
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+
+.link_color:hover {
+    color: #d45244;
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 1170px;
     margin: auto;
     padding: 0px 20px;
 }
 
-.landing-section{
+.landing-section {
     padding: 20px 0;
     border-bottom: 2px dashed #aaa;
-
 }
 
-.landing-section h1{
+.section-header {
     text-align: center;
     font-family: Bazar;
-    font-size: 6vw;
+    font-size: 80px;
     color: #3a3a3a;
     text-shadow: 1px 1px 0 #fcfaf7,
     3px 3px 0 #3a3a3a
 }
 
-.img-responsive{
+.section-header_light {
+    color: #f6edd8;
+    text-shadow: 1px 1px 0 #484a4d,
+    3px 3px 0 #d4cebf
+}
+
+.img-responsive {
     display: block;
     max-width: 100%;
     max-height: 100%;

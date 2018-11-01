@@ -13,7 +13,7 @@
     grid-gap: 1em;
 
     margin: auto;
-        align-items: center;
+    align-items: center;
 }
 
 .menu__item {
@@ -22,18 +22,17 @@
     font-size: 32px;
     text-align: center;
     vertical-align: middle;
-
 }
 
-.menu_item--1 {
+.menu-item__1 {
     grid-column: 1;
 }
 
-.menu_item--2 {
+.menu-item__2 {
     grid-column: 2;
 }
 
-.menu_item--logo {
+.menu-item__logo {
     grid-column: 3;
     background-image: url("/HTML-CSS-Learn/img/logo.png");
     background-position: center;
@@ -43,6 +42,11 @@
     width: 150px;
     margin: auto;
 
+    transition: all 0.2s ease-in-out;
+}
+
+.menu_item__logo:hover {
+    transform: scale(1.1);
 }
 
 .menu_item--3 {
@@ -52,4 +56,3 @@
 .menu_item--4 {
     grid-column: 5;
 }
-
