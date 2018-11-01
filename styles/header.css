@@ -1,27 +1,31 @@
 .site-header {
+    padding: 10px 0;
 
-    background: url("/HTML-CSS-Learn/img/header_background.png");
-    justify-items: center;
-    padding: 10px 0px;
     border-bottom: 2px dashed #aaa;
+    background: url('../img/header_background.png');
+
+    justify-items: center;
 }
 
 .menu {
     display: grid;
+
+    margin: auto;
+
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: auto;
     grid-gap: 1em;
-
-    margin: auto;
     align-items: center;
 }
 
 .menu__item {
     font-family: Bazar;
-    color: #f9ebd9;
     font-size: 32px;
+
     text-align: center;
     vertical-align: middle;
+
+    color: #f9ebd9;
 }
 
 .menu-item__1 {
@@ -33,16 +37,16 @@
 }
 
 .menu-item__logo {
-    grid-column: 3;
-    background-image: url("/HTML-CSS-Learn/img/logo.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 150px;
     width: 150px;
+    height: 150px;
     margin: auto;
 
-    transition: all 0.2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+    background: url('../img/logo.png') no-repeat center;
+    background-size: cover;
+
+    grid-column: 3;
 }
 
 .menu_item__logo:hover {

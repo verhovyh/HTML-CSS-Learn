@@ -8,38 +8,40 @@
 
 .blog-item {
     font-family: 'Roboto Slab', regular;
+
     display: grid;
 
+    padding: 30px 20px;
+
     grid-gap: 20px;
-
-    grid-template-areas: "pic title responses" "pic preview preview";
-
+    grid-template-areas: 'pic title responses' 'pic preview preview';
     grid-template-columns: 200px 1fr 170px;
     grid-template-rows: 30px 1fr;
-
-    padding: 30px 20px;
 }
 
 .blog-item__title {
-    font-weight: bolder;
     font-size: 20px;
+    font-weight: bolder;
+
     grid-area: title;
 }
 
 .blog-item__picture {
-    background: #e3dfd7;
     border: 3px solid #fbfaf6;
-    box-shadow: #aaaaaa;
+    background: #e3dfd7;
+    box-shadow: #aaa;
 
-    grid-area: pic
+    grid-area: pic;
 }
 
 .blog-item__responses {
-    grid-area: responses;
     text-align: right;
+
+    grid-area: responses;
 }
 
 .blog-item__preview {
     text-align: justify;
-    grid-area: preview
+
+    grid-area: preview;
 }

@@ -1,25 +1,20 @@
 .retro-portfolio-logos-section {
-
-    background: url("/HTML-CSS-Learn/img/header_background.png");
+    background: url('../img/header_background.png');
 }
 
 .retro-banner {
-
     max-width: 300px;
-    margin: auto;
     max-height: 130px;
-    align-content: center;
+    margin: auto;
 
+    align-content: center;
 }
 
 .retro-ribbon {
-
+    font-family: Bazar;
+    font-size: 31px;
 
     text-align: center;
 
     color: #545454;
-
-    font-size: 31px;
-
-    font-family: Bazar;
 }

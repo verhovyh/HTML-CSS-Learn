@@ -1,39 +1,43 @@
 .about-me-section {
-    background: url("/HTML-CSS-Learn/img/about_me_background.png");
+    background: url('../img/about_me_background.png');
 }
 
-
-
 .about-me-divider {
+    font-family: 'PT Sans';
+    font-size: 2vw;
+    font-weight: bold;
 
     display: inline-block;
-    font-family: 'PT Sans';
-    color: #3a3a3a;
-    font-weight: bold;
     display: block;
     overflow: hidden;
+
     text-align: center;
-    font-size: 2vw;
+
+    color: #3a3a3a;
 }
 
 .about-me-text {
     font-family: Bazar;
     font-size: 3vw;
-    color: #38353e;
-    max-font-size: 10px;
-    text-align: center;
+
     padding-top: 10px;
+
+    text-align: center;
+
+    color: #38353e;
+
+    max-font-size: 10px;
 }
 
 .about-me-areas {
-
-    padding-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-
     display: flex;
     flex-direction: row;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
@@ -42,47 +46,56 @@
 
 .about-me-areas__area {
     max-width: 237px;
-    text-align: center;
-    align-content: center;
     padding: 20px 20px;
+
+    text-align: center;
+
+    align-content: center;
 }
 
 .about-me-areas__area__icon {
-    border-radius: 50%;
+    font-size: 100px;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+
     width: 130px;
     height: 130px;
-    background: #d45244;
-    border: 3px solid #5b5b5a;
+    margin-right: auto;
+    margin-left: auto;
+
+    vertical-align: center;
 
     color: #e1dccc;
-    vertical-align: center;
-    font-size: 100px;
+    border: 3px solid #5b5b5a;
+    border-radius: 50%;
+    background: #d45244;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .about-me-areas__area__header {
-    padding-top: 10px;
     font-family: 'Bazar';
     font-size: 2em;
+
+    padding-top: 10px;
+
     color: #383a3c;
 }
 
 .about-me-areas__area__header2 {
-    color: #383a3c;
-    font-size: 1.25em;
     font-family: 'Roboto Slab';
+    font-size: 1.25em;
+
+    color: #383a3c;
 }
 
 .about-me-areas__area__text {
-    padding-top: 15px;
     font-family: 'Roboto Slab';
-    color: #383a3c;
     font-size: 1em;
     line-height: 1.6;
 
+    padding-top: 15px;
+
+    color: #383a3c;
 }
